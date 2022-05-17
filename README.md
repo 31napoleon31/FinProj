@@ -1,2 +1,0 @@
-# FinProj
-FinProj
