@@ -1,7 +1,8 @@
 import numpy as np
 
-def optimal_predict(mini: int=1, maxi: int=101, number: int=None) -> int:
-    '''Игра компьютер угадает число меньше чем за 20 попыток'''
+
+def optimal_predict(mini: int = 1, maxi: int = 101, number: int = None) -> int:
+    '''Игра, в которой компьютер угадает число меньше чем за 20 попыток'''
 
     if number is None:
         number = np.random.randint(mini, maxi)
@@ -9,18 +10,19 @@ def optimal_predict(mini: int=1, maxi: int=101, number: int=None) -> int:
     count = 0
 
     while True:
-        count+=1
+        count += 1
         midi = (mini+maxi) // 2
-    
+
         if midi > number:
-          maxi = midi
-    
+            maxi = midi
+
         elif midi < number:
-          mini = midi
+            mini = midi
 
         else:
-            print(f"Компьютер угадал число за {count} попыток. Это число {number}")
-            break 
+            print(
+                f"Компьютер угадал число за {count} попыток. Это число {number}")
+            break
     return count
 
 
@@ -33,24 +35,26 @@ def score_game(optimal_predict) -> int:
     Returns:
         int: среднее количество попыток
     """
-    
+
     count_ls = []
-    
-    #np.random.seed(1)   
+
+    # np.random.seed(1)
     ''' Если раскомментируем предыдущую строку, то можем зафиксировать сид для воспроизводимости.
         Это облегчит отлов ошибок и позволит сравнить работу программы
         даже при использовании разных рабочих мест'''
-                            
-    random_array = np.random.randint(1, 101, size=(1000))  # загадали список онлайн переводчик чисел
+
+    # загадали список онлайн переводчик чисел
+    random_array = np.random.randint(1, 101, size=(1000))
     for i in random_array:
         count_ls.append(optimal_predict(number=i))
 
     score = round(np.mean(count_ls))
-    print(f"Ваш алгоритм угадывает число в среднем за: {score} попытки в {len(count_ls)} проходах!")
+    print(
+        f"Ваш алгоритм угадывает число в среднем за: {score} попытки в {len(count_ls)} проходах!")
     return score
-
 
     # RUN
 if __name__ == "__main__":
 
+    # Можем указать число в параметтрах вызываемой функции. Например score_game(optimal_predict(number=6))
     score_game(optimal_predict)
