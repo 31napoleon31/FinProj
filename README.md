@@ -5,7 +5,7 @@
 
 
 ## ОГЛАВЛЕНИЕ  
-[1. УСЛОВИЯ ЗАДАНИЯ](https://github.com/31napoleon31/FinProj/tree/main/README.md#УСЛОВИЯ-ЗАДАНИЯ)  
+[1. УСЛОВИЯ ЗАДАНИЯ](#УСЛОВИЯ-ЗАДАНИЯ)  
 [2. МЕТРИКА КАЧЕСТВА](https://github.com/31napoleon31/FinProj/tree/main/README.md#Какой-кейс-решаем)  
 [3. ЧТО ПРАКТИКУЕМ](https://github.com/31napoleon31/FinProj/tree/main/README.md#Краткая-информация-о-данных)  
 [4. КРИТЕРИИ ОЦЕНИВАНИЯ:](https://github.com/31napoleon31/FinProj/tree/main/README.md#Этапы-работы-над-проектом)  
