@@ -5,12 +5,12 @@
 
 
 ## ОГЛАВЛЕНИЕ  
-[1. УСЛОВИЯ ЗАДАНИЯ](https://github.com/31napoleon31/FinProj/tree/main/README.md###УСЛОВИЯ-ЗАДАНИЯ)  
-[2. МЕТРИКА КАЧЕСТВА](.README.md#Какой-кейс-решаем)  
-[3. ЧТО ПРАКТИКУЕМ](.README.md#Краткая-информация-о-данных)  
-[4. КРИТЕРИИ ОЦЕНИВАНИЯ:](.README.md#Этапы-работы-над-проектом)  
-[5. РЕЗУЛЬТАТ](.README.md#Результат)    
-[6. ВЫВОДЫ](.README.md#Выводы) 
+[1. УСЛОВИЯ ЗАДАНИЯ](https://github.com/31napoleon31/FinProj/tree/main/README.md#УСЛОВИЯ-ЗАДАНИЯ)  
+[2. МЕТРИКА КАЧЕСТВА](https://github.com/31napoleon31/FinProj/tree/main/README.md#Какой-кейс-решаем)  
+[3. ЧТО ПРАКТИКУЕМ](https://github.com/31napoleon31/FinProj/tree/main/README.md#Краткая-информация-о-данных)  
+[4. КРИТЕРИИ ОЦЕНИВАНИЯ:](https://github.com/31napoleon31/FinProj/tree/main/README.md#Этапы-работы-над-проектом)  
+[5. РЕЗУЛЬТАТ](https://github.com/31napoleon31/FinProj/tree/main/README.md#Результат)    
+[6. ВЫВОДЫ](https://github.com/31napoleon31/FinProj/tree/main/README.md#Выводы) 
 
 ### УСЛОВИЯ ЗАДАНИЯ    
 * Компьютер загадывает целое число от 1 до 100, и нам его нужно угадать. Под «угадать» подразумевается «написать программу, которая угадывает число».
@@ -56,19 +56,7 @@
 ### Выводы:  
 ....
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](#Оглавление)
 
 
 Если информация по этому проекту покажется вам интересной или полезной, то я буду очень вам благодарен, если отметите репозиторий и профиль ⭐️⭐️⭐️-дами
->>>>>>> 67127f4 (second commit)
-=======
-# FinalTask
-FinalTask
->>>>>>> 19f9eab (Initial commit)
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
->>>>>>> 28d8d73 (Initial commit)
->>>>>>> Stashed changes
-=======
->>>>>>> 28d8d73 (Initial commit)
